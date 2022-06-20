@@ -44,7 +44,7 @@ buyBtns.forEach((buyBtn, idx) => {
       last.innerHTML = `${totalMoney} TL paranız var`;
       data.piece[idx]++;
       pieces.forEach((a, b) => {
-        a.innerText = `Ürün Fiyatı : ${data.piece[b]} TL`;
+        a.innerText = `Ürün Adeti : ${data.piece[b]} `;
         corap.innerHTML = `Çorap : ${data.piece[0]} Adet`;
         sakiz.innerHTML = `Sakız : ${data.piece[1]} Adet`;
         bisiklet.innerHTML = `Bisiklet : ${data.piece[2]} Adet`;
@@ -64,8 +64,7 @@ sellBtns.forEach((buyBtn, idx) => {
       last.innerHTML = `${totalMoney} TL paranız var`;
       data.piece[idx]--;
       pieces.forEach((a, b) => {
-        a.innerText = `Ürün Fiyatı : ${data.piece[b]} TL`;
-        a.innerText = `Ürün Fiyatı : ${data.piece[b]} TL`;
+        a.innerText = `Ürün Adeti : ${data.piece[b]} `;
         corap.innerHTML = `Çorap : ${data.piece[0]} Adet`;
         sakiz.innerHTML = `Sakız : ${data.piece[1]} Adet`;
         bisiklet.innerHTML = `Bisiklet : ${data.piece[2]} Adet`;
