@@ -1,4 +1,4 @@
-import data from "./items.json" assert { type: "json" };
+import data from "/items.json" assert { type: "json" };
 
 const last = document.querySelector(".last");
 const prices = document.querySelectorAll(".price");
