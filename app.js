@@ -1,5 +1,3 @@
-import data from "/items.json" assert { type: "json" };
-
 const last = document.querySelector(".last");
 const prices = document.querySelectorAll(".price");
 const sellBtns = document.querySelectorAll(".sell");
@@ -19,6 +17,20 @@ const yuzuk = document.querySelector(".yuzuk");
 const sepetItems = document.querySelectorAll(".sepetim > p");
 const img = document.querySelectorAll("img");
 const pieces = document.querySelectorAll(".adet");
+
+const data = {
+  items: ["Çorap", "Sakız", "Bisiklet", "Araba", "Apartman", "Yüzük"],
+  price: [3, 1, 1500, 250000, 500000, 1000000],
+  images: [
+    "https://www.pngarts.com/files/1/Socks-PNG-Background-Image.png",
+    "https://www.pngmart.com/files/7/Gum-PNG-Transparent-Picture.png",
+    "https://www.pngarts.com/files/4/Bicycle-PNG-Pic.png",
+    "https://cdn.pixabay.com/photo/2013/07/12/14/47/car-148786_960_720.png",
+    "https://www.muhasebenews.com/wp-content/uploads/2019/08/ev-apartman-daire-emlak-al%C4%B1m-sat%C4%B1m-komisyon-daire.png",
+    "https://www.erospirlanta.com/pirlanta-090-karat-tektas-yuzuk-pirlanta-tektas-eros-pirlanta-6126-37-B.png",
+  ],
+  piece: [0, 0, 0, 0, 0, 0],
+};
 
 let totalMoney = 1000000;
 last.innerHTML = `${totalMoney} TL paranız var`;
