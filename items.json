@@ -1,0 +1,12 @@
+{
+  "items": ["Çorap", "Sakız", "Bisiklet", "Araba", "Apartman"],
+  "price": [3, 1, 1500, 250000, 500000],
+  "images": [
+    "https://www.pngarts.com/files/1/Socks-PNG-Background-Image.png",
+    "https://www.pngmart.com/files/7/Gum-PNG-Transparent-Picture.png",
+    "https://www.pngarts.com/files/4/Bicycle-PNG-Pic.png",
+    "https://cdn.pixabay.com/photo/2013/07/12/14/47/car-148786_960_720.png",
+    "https://www.muhasebenews.com/wp-content/uploads/2019/08/ev-apartman-daire-emlak-al%C4%B1m-sat%C4%B1m-komisyon-daire.png"
+  ],
+  "piece": [0, 0, 0, 0, 0]
+}
