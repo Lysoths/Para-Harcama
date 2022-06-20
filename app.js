@@ -15,6 +15,7 @@ const sakiz = document.querySelector(".sakiz");
 const bisiklet = document.querySelector(".bisiklet");
 const araba = document.querySelector(".araba");
 const apartman = document.querySelector(".apartman");
+const yuzuk = document.querySelector(".yuzuk");
 const sepetItems = document.querySelectorAll(".sepetim > p");
 const img = document.querySelectorAll("img");
 const pieces = document.querySelectorAll(".adet");
@@ -50,6 +51,7 @@ buyBtns.forEach((buyBtn, idx) => {
         bisiklet.innerHTML = `Bisiklet : ${data.piece[2]} Adet`;
         araba.innerHTML = `Araba : ${data.piece[3]} Adet`;
         apartman.innerHTML = `Apartman : ${data.piece[4]} Adet`;
+        yuzuk.innerHTML = `Yüzük : ${data.piece[5]} Adet`;
       });
     } else {
       alert("Yetersiz Bakiye");
@@ -70,6 +72,7 @@ sellBtns.forEach((buyBtn, idx) => {
         bisiklet.innerHTML = `Bisiklet : ${data.piece[2]} Adet`;
         araba.innerHTML = `Araba : ${data.piece[3]} Adet`;
         apartman.innerHTML = `Apartman : ${data.piece[4]} Adet`;
+        yuzuk.innerHTML = `Yüzük : ${data.piece[5]} Adet`;
       });
     } else {
       alert("Satmaya çalıştığın ürün sepetinde bulunmuyor");
