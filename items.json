@@ -1,12 +1,13 @@
 {
-  "items": ["Çorap", "Sakız", "Bisiklet", "Araba", "Apartman"],
-  "price": [3, 1, 1500, 250000, 500000],
+  "items": ["Çorap", "Sakız", "Bisiklet", "Araba", "Apartman", "Yüzük"],
+  "price": [3, 1, 1500, 250000, 500000, 1000000],
   "images": [
     "https://www.pngarts.com/files/1/Socks-PNG-Background-Image.png",
     "https://www.pngmart.com/files/7/Gum-PNG-Transparent-Picture.png",
     "https://www.pngarts.com/files/4/Bicycle-PNG-Pic.png",
     "https://cdn.pixabay.com/photo/2013/07/12/14/47/car-148786_960_720.png",
-    "https://www.muhasebenews.com/wp-content/uploads/2019/08/ev-apartman-daire-emlak-al%C4%B1m-sat%C4%B1m-komisyon-daire.png"
+    "https://www.muhasebenews.com/wp-content/uploads/2019/08/ev-apartman-daire-emlak-al%C4%B1m-sat%C4%B1m-komisyon-daire.png",
+    "https://www.erospirlanta.com/pirlanta-090-karat-tektas-yuzuk-pirlanta-tektas-eros-pirlanta-6126-37-B.png"
   ],
-  "piece": [0, 0, 0, 0, 0]
+  "piece": [0, 0, 0, 0, 0, 0]
 }
