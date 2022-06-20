@@ -23,7 +23,7 @@ let totalMoney = 1000000;
 last.innerHTML = `${totalMoney} TL paranız var`;
 
 pieces.forEach((a, b) => {
-  a.innerText = `Ürün Adeti : ${data.piece[b]} TL`;
+  a.innerText = `Ürün Adeti : ${data.piece[b]} `;
 });
 
 prices.forEach((a, b) => {
