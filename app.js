@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-import data from "./items.json" assert { type: "json" };
-
->>>>>>> 07b9b69a44ead2da1c3c580185c6af38a359e5e4
 const last = document.querySelector(".last");
 const prices = document.querySelectorAll(".price");
 const sellBtns = document.querySelectorAll(".sell");
